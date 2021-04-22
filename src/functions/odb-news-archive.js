@@ -15,6 +15,10 @@ const handler = event => {
     "title": story.name,
     "content": story.desc
   }; 
+
+  console.log({ data });
+  
+
   return {
     statusCode: 200,
     body: pageTemplate(data)

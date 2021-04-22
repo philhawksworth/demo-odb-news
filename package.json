@@ -1,6 +1,6 @@
 {
   "name": "demo-odb-news",
-  "description": "A demonstraction of using Netlify On Demand Build functions to power a news archive site",
+  "description": "A demonstration of using Netlify On Demand Build functions to power a news archive site",
   "repository": {
     "type": "git",
     "url": "https://github.com/philhawksworth/demo-odb-news"
