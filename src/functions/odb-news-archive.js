@@ -17,6 +17,8 @@ const handler = event => {
   }; 
 
   console.log({ data });
+  console.log(pageTemplate(data));
+  
 
   return {
     statusCode: 200,
