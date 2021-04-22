@@ -1,0 +1,13 @@
+---
+layout: layouts/base.11ty.js
+pagination: 
+  data: trello.CurrentNews.cards
+  size: 1
+  alias: item
+permalink: "news/{{ item.id }}/index.html"
+---
+
+
+<h1>{{item.name}}</h1>
+
+{{ item.desc }}

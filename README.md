@@ -1,6 +1,6 @@
 # Breaking/Archived news demo
 
-**See the demo https://bfdx-news.netlify.app/**:
+**See the demo https://odb-news.netlify.app/**:
 
 
 This example news site shows news items of three types:
