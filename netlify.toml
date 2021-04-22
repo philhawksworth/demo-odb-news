@@ -8,6 +8,9 @@
   functions = "src/functions"
   command = "npm run serve"
 
+[functions]
+  node_bundler = "esbuild"
+
 # Serverless render function to get da view directly from the content API since 
 # these are stories which are changing frequently
 [[redirects]]
