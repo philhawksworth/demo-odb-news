@@ -16,10 +16,6 @@ const handler = async event => {
     "content": story.desc
   }; 
 
-  console.log({ data });
-  console.log(pageTemplate(data));
-  
-
   return {
     statusCode: 200,
     headers: {
