@@ -3,7 +3,7 @@ const { ArchivedNews }  = require('../site/_data/trello.json');
 const pageTemplate      = require('../site/_includes/layouts/base.11ty.js');
 
 
-const handler = event => {
+const handler = async event => {
 
   const storyid = event.path.split('/archived/')[1];
   const story = ArchivedNews.cards.find(obj => obj.id == storyid);
