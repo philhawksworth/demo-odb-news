@@ -17,10 +17,12 @@ const handler = event => {
   }; 
 
   console.log({ data });
-  
 
   return {
     statusCode: 200,
+    headers: {
+      "Content-Type": "text/html",
+    },
     body: pageTemplate(data)
   }
 
