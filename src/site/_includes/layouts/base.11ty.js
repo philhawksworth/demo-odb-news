@@ -26,6 +26,7 @@ module.exports = (data) => {
       <footer>
         <div class="container">
           <p>Content sourced either at build time or on-demand from <a href="https://trello.com/b/u3QFpXib/news-demo">This trello board</a></p>
+          <p>View the code on <a href="https://github.com/philhawksworth/demo-odb-news">GitHub</a></p>
         </div>
         </footer>
     </body>
