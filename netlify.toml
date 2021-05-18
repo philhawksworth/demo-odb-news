@@ -20,8 +20,9 @@
   force = true
 
 
-# Builder function render views of articles in the archive. 
-# These don't change often and were clutteruing up the build
+# An On-Demand Builder function renders views of articles in the archive. 
+# These don't change often and were cluttering up the build.
+# We can defer their generation until the first time they get requested
 [[redirects]]
   from = "/archived/:storyid"
   to = "/.netlify/functions/odb-news-archive?storyid=:storyid"
